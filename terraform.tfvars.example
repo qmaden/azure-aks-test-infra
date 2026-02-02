@@ -1,0 +1,15 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and update with your values
+# Note: terraform.tfvars is ignored by git to protect sensitive data
+
+resource_group_name              = "rg-aks-test-centralindia"
+location                         = "centralindia"
+storage_account_name             = "stakstest12345"  # Must be globally unique
+storage_account_tier             = "Standard"
+storage_account_replication_type = "LRS"
+
+tags = {
+  Environment = "Test"
+  ManagedBy   = "Terraform"
+  Project     = "AKS-Test"
+}
