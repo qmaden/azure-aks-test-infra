@@ -19,6 +19,6 @@ storage_account_replication_type = "LRS"
 
 tags = {
   Environment = "Test"
-  ManagedBy   = "Terraform"
-  Project     = "AKS-Test"
+  ManagedBy   = "Terrafor2"
+  Project     = "AKS-Te2st"
 }
